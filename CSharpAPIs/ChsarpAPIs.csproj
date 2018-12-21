@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.ServiceFabric.Client">
+      <HintPath>D:\ClientLibs\Microsoft.ServiceFabric.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ServiceFabric.Client.Http">
+      <HintPath>D:\ClientLibs\Microsoft.ServiceFabric.Client.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ServiceFabric.Common">
+      <HintPath>D:\ClientLibs\Microsoft.ServiceFabric.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
